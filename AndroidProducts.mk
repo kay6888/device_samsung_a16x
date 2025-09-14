@@ -8,7 +8,4 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_a16x.mk
 
-COMMON_LUNCH_CHOICES := \
-    twrp_a16x-user \
-    twrp_a16x-userdebug \
-    twrp_a16x-eng
+add_lunch_combo is obsolete. Use COMMON_LUNCH_CHOICES in your AndroidProducts.mk instead.
