@@ -10,5 +10,4 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     twrp_a16x-user \
-    twrp_a16x-userdebug \
-    twrp_a16x-eng
+ 
