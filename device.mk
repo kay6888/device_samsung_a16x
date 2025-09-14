@@ -9,4 +9,4 @@ LOCAL_PATH := device/samsung/a16x
 
 
 # Inherit from common tree
-include device/samsung/s5e8535-common/twrp_s5e8535.mk
+include device/samsung/a16x/s5e8535-common/twrp_s5e8535.mk
