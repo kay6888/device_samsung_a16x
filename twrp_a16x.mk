@@ -23,7 +23,7 @@ $(call inherit-product, device/samsung/a16x/device.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := twrp_a16x
 PRODUCT_DEVICE := a16x
-PRODUCT_MODEL := SM-A166M
+PRODUCT_MODEL := SM-A166u1
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 
