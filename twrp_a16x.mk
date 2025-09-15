@@ -18,7 +18,7 @@ $(call inherit-product, device/samsung/a16x/device.mk)
 PRODUCT_DEVICE := a16x
 PRODUCT_NAME := twrp_a16x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A166U
+PRODUCT_MODEL := SM-A166U1
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
