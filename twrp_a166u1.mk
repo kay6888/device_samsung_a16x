@@ -12,13 +12,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from a16x device
-$(call inherit-product, device/samsung/a16x/device.mk)
+# Inherit from a166u1 device
+$(call inherit-product, device/samsung/a166u1/device.mk)
 
 PRODUCT_DEVICE := a16x
-PRODUCT_NAME := twrp_a16x
+PRODUCT_NAME := twrp_a166u1
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A166U
+PRODUCT_MODEL := SM-A166U1
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
