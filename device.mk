@@ -5,8 +5,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/samsung/a16x
+LOCAL_PATH := device/samsung/a166u1
 
 
 # Inherit from common tree
 include device/samsung/s5e8535-common/twrp_s5e8535.mk
+q
