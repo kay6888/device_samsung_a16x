@@ -9,12 +9,7 @@ DEVICE_PATH := device/samsung/a16x
 
 # Kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/recovery_dtbo
-
-# Inherit from common tree
-include device/samsung/s5e8535-common/BoardConfigCommon.mk
-
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo
 
 
 # For building with minimal manifest
