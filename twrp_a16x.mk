@@ -4,8 +4,9 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
 # Inherit from common tree
-include device/samsung/s5e8535-common/BoardConfigCommon.mk
+$(call inherit-product, $(device/samsung/s5e8535-common/BoardConfigCommon.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
