@@ -11,10 +11,6 @@ DEVICE_PATH := device/samsung/a16x
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/recovery_dtbo
 
-# Inherit from common tree
-include device/samsung/s5e8535-common/BoardConfigCommon.mk
-
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 
 # For building with minimal manifest
@@ -121,7 +117,6 @@ TW_NO_REBOOT_BOOTLOADER := true
 TW_USE_EXTERNAL_STORAGE := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXCLUDE_APEX := true
-TW_INCLUDE_FASTBOOTD := true
 TW_HAS_DOWNLOAD_MODE := true
 TW_NO_BIND_SYSTEM := true
 TW_PREPARE_DATA_MEDIA_EARLY := true
@@ -131,7 +126,7 @@ TW_NO_LEGACY_PROPS := true
 TW_USE_NEW_MINADBD := true
 TW_MAX_BRIGHTNESS := 200
 TARGET_USES_MKE2FS := true
-TW_DEVICE_VERSION := TheNoobDevs_001
+TW_DEVICE_VERSION := kay6888
 
 
 # Logging
@@ -140,9 +135,5 @@ TWRP_INCLUDE_LOGCAT := true
 TWRP_EVENT_LOGGING := true
 
 # Properties
-#TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-
-# Treble
-PRODUCT_ENFORCE_VINTF_MANIFEST := true
-PRODUCT_FULL_TREBLE := true
